@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'iconos';
+  src: url("../fonts/icomoon.eot?-4aqd2n");
+  src: url("../fonts/icomoon.eot?#iefix-4aqd2n") format('embedded-opentype'), url("../fonts/icomoon.woff?-4aqd2n") format('woff'), url("../fonts/icomoon.ttf?-4aqd2n") format('truetype'), url("../fonts/icomoon.svg?-4aqd2n#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  color: #dd4f24;
+}
+body {
+  background: #e8e8e8;
+  color: #444;
+  font-family: Arial;
+  font-size: 16px;
+}
+footer {
+  background: #dd4f24;
+  color: rgba(255,255,255,0.5);
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+footer h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+footer h3 strong {
+  display: block;
+}
+footer h3 strong:before,
+footer h3 strong:after {
+  content: " - ";
+}
+header {
+  background: #444;
+  box-shadow: 0 10px 3px rgba(0,0,0,0.2);
+  color: #fff;
+  overflow: hidden;
+  padding: 0.5em;
+  position: relative;
+  z-index: 1;
+}
+header .logo {
+  border-right: 1px solid #22bce0;
+  float: left;
+  width: 60px;
+}
+header .logo img {
+  width: 50px;
+}
+header .titular {
+  margin: 0 60px 0 90px;
+}
+header .titular .filtro {
+  color: #22bce0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+header .titular .publicar {
+  background: #dd4f24;
+  color: #fff;
+  float: right;
+  font-size: italic;
+  font-weight: normal;
+  margin: -5px 1em 0 0;
+  padding: 0.2em 0.5em;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #000;
+}
+header .titular .publicar:before {
+  display: inline-block;
+  font-family: iconos;
+  content: "\e603";
+  margin: 0 3px 0 0;
+}
+header .titular .titulo {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+header .usuario {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+header .usuario .avatar {
+  margin: 0 1.1em 0 0;
+  position: relative;
+  z-index: 2;
+}
+header .usuario .avatar img {
+  width: 50px;
+  border-radius: 50%;
+}
+header .usuario .flechita {
+  background: #dd4f24;
+  color: #fff;
+  display: block;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 15px;
+  width: 30px;
+}
+header .usuario .flechita:after {
+  display: inline-block;
+  font-family: iconos;
+  content: "\e600";
+  text-shadow: 1px 1px 0px #000;
+}
+nav {
+  background: #22bce0;
+  border-left: 15px solid #fff;
+  position: relative;
+}
+nav:before {
+  border-bottom: 25px solid transparent;
+  border-left: 7px solid #fff;
+  border-top: 25px solid transparent;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+nav .menu {
+  height: 50px;
+  line-height: 32px;
+  margin: 0;
+  overflow-x: auto;
+  padding: 0;
+  white-space: nowrap;
+}
+nav .menu li {
+  display: inline-block;
+}
+nav .menu li a {
+  color: #fff;
+  margin: 0 0.5em;
+  text-decoration: none;
+  padding: 0 0.2em;
+  display: inline-block;
+}
+.seccion {
+  padding: 0.5em;
+}
+.seccion .post {
+  background: #fff;
+  border-radius: 0 0 0.5em 0.5em;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: #7a7a7a;
+  margin-bottom: 1em;
+}
+.seccion .post .acciones {
+  border-top: 3px solid #22bce0;
+  padding: 0.5em;
+  overflow: hidden;
+}
+.seccion .post .acciones .datos {
+  float: right;
+}
+.seccion .post .acciones .datos .comentarios {
+  background: #7a7a7a;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0 1em 0 0;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.seccion .post .acciones .datos .estrellita {
+  text-decoration: none;
+}
+.seccion .post .acciones .datos .estrellita:after {
+  font-family: iconos;
+  color: #e0d561;
+  content: "\e601";
+}
+.seccion .post .acciones .votos {
+  float: left;
+}
+.seccion .post .acciones .votos .down,
+.seccion .post .acciones .votos .up {
+  text-decoration: none;
+vertical-aling
+}
+.seccion .post .acciones .votos .down {
+  color: #f00;
+}
+.seccion .post .acciones .votos .down:before {
+  font-family: iconos;
+  font-size: 1.5em;
+  content: "\e600";
+  vertical-aling: bottom;
+}
+.seccion .post .acciones .votos .up {
+  color: #008000;
+}
+.seccion .post .acciones .votos .up:before {
+  font-family: iconos;
+  font-size: 1.5em;
+  content: "\e602";
+  vertical-aling: bottom;
+}
+.seccion .post .descripcion {
+  color: #7a7a7a;
+}
+.seccion .post .descripcion .detalles {
+  height: 124px;
+  margin-left: 140px;
+}
+.seccion .post .descripcion .detalles .titulo {
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+  margin: 0;
+  padding: 0.5em 0.5em 0 0;
+}
+.seccion .post .descripcion .detalles .autor {
+  margin: 0.5em 0 2em 0;
+}
+.seccion .post .descripcion .detalles .tag {
+  background: #22bce0;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+}
+.seccion .post .descripcion .detalles .fecha {
+  float: right;
+  margin: 0 1em 0 0;
+}
+.seccion .post .descripcion .imagen {
+  float: left;
+}
+.seccion .post .descripcion .imagen img {
+  width: 130px;
+  vertical-aling: top;
+  height: 120px;
+}
+@media screen and (min-width: 768px) {
+  header .titular .publicar {
+    padding-left: 3em;
+    position: relative;
+  }
+  header .titular .publicar:before {
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    font-size: 2.5em;
+  }
+  .seccion .post {
+    display: inline-block;
+    width: 48%;
+    vertical-aling: top;
+  }
+  .seccion .post:nth-child(odd) {
+    margin-right: 2%;
+  }
+}
